@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JiraLikeSystem.Core\JiraLikeSystem.Application.csproj" />
+	<ProjectReference Include="..\JiraLikeSystem.Domain\JiraLikeSystem.Domain.csproj" />
+	<ProjectReference Include="..\JiraLikeSystem.Infrastructure\JiraLikeSystem.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

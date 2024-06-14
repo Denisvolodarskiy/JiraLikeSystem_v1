@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{915BBEA6-6F41-48EF-B8D0-3971C67883AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraLikeSystem.Tests", "JiraLikeSystem.UnitTest\JiraLikeSystem.Tests.csproj", "{67D09384-D8CE-4066-8FA8-D6AB033526F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraLikeSystem.WebApi", "JiraLikeSystem.WebApi\JiraLikeSystem.WebApi.csproj", "{BAB1FE56-FD32-473B-B9F3-1710406800C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraLikeSystem.Application", "JiraLikeSystem.Core\JiraLikeSystem.Application.csproj", "{83AF65C4-FCD3-46BB-8779-508AD54199C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraLikeSystem.Domain", "JiraLikeSystem.Domain\JiraLikeSystem.Domain.csproj", "{725D86B1-48BE-4D4B-9000-6BA6FC72A481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiraLikeSystem.Infrastructure", "JiraLikeSystem.Infrastructure\JiraLikeSystem.Infrastructure.csproj", "{58107113-681D-48F4-B0FA-8F2FF1BA4AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67D09384-D8CE-4066-8FA8-D6AB033526F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D09384-D8CE-4066-8FA8-D6AB033526F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D09384-D8CE-4066-8FA8-D6AB033526F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D09384-D8CE-4066-8FA8-D6AB033526F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB1FE56-FD32-473B-B9F3-1710406800C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB1FE56-FD32-473B-B9F3-1710406800C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB1FE56-FD32-473B-B9F3-1710406800C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB1FE56-FD32-473B-B9F3-1710406800C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AF65C4-FCD3-46BB-8779-508AD54199C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AF65C4-FCD3-46BB-8779-508AD54199C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AF65C4-FCD3-46BB-8779-508AD54199C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AF65C4-FCD3-46BB-8779-508AD54199C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725D86B1-48BE-4D4B-9000-6BA6FC72A481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725D86B1-48BE-4D4B-9000-6BA6FC72A481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725D86B1-48BE-4D4B-9000-6BA6FC72A481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725D86B1-48BE-4D4B-9000-6BA6FC72A481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58107113-681D-48F4-B0FA-8F2FF1BA4AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58107113-681D-48F4-B0FA-8F2FF1BA4AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58107113-681D-48F4-B0FA-8F2FF1BA4AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58107113-681D-48F4-B0FA-8F2FF1BA4AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67D09384-D8CE-4066-8FA8-D6AB033526F3} = {915BBEA6-6F41-48EF-B8D0-3971C67883AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {613C3FCF-C2A4-4434-BFDB-C58E46A805E2}
+	EndGlobalSection
+EndGlobal
